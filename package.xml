@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+    <name>ShippingTracker</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL) </license>
+    <channel>community</channel>
+    <extends/>
+    <summary>It allows the admin to add custom shipping carrier with tracking number .</summary>
+    <description>It allows the admin to add shipping carrier with &#xD;
+tracking number .&#xD;
+&#xD;
+&#xD;
+The selected custom carrier details will be send &#xD;
+through email with its respective tracking order &#xD;
+link .&#xD;
+&#xD;
+Shown in customer dashboard on respective &#xD;
+orders .</description>
+    <notes>Details reflected in shipping mail and PDF's</notes>
+    <authors><author><name>Nikhil K ravindran</name><user>nikhilkr</user><email>nikrmc@gmail.com</email></author></authors>
+    <date>2014-06-09</date>
+    <time>11:03:39</time>
+    <contents><target name="magelocal"><dir name="Mage"><dir name="Sales"><dir name="Model"><dir name="Order"><dir name="Pdf"><file name="Abstract.php" hash="198c4bfc6acc0f2815fc7e4fcf1f521e"/></dir></dir></dir></dir></dir><dir name="Neo"><dir name="Shippingtracker"><dir name="Block"><dir name="Adminhtml"><dir name="Shippingtracker"><dir name="Edit"><file name="Form.php" hash="288b1235868ef0d9e8c8ce1351655637"/><dir name="Tab"><file name="Form.php" hash="242cc515f063c877aba8f05d3aac3b3c"/></dir><file name="Tabs.php" hash="f23acffaf338071b9c1861a086b89534"/></dir><file name="Edit.php" hash="0da9aabc983239b0a215231cfdf60bd8"/><file name="Grid.php" hash="7275496234d2632a04408169d66e2a2c"/></dir><file name="Shippingtracker.php" hash="ff136e79a2981f51b61c7f9bee71ee43"/></dir><file name="Shippingtracker.php" hash="701814367d15235c6a9f379e1445c65f"/></dir><dir name="Helper"><file name="Data.php" hash="b3dfb21ac1c0369e87ad2124d2018a36"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Shippingtracker"><file name="Collection.php" hash="0c94bc71190a2a4c3156ae8ce78f26c4"/></dir><file name="Shippingtracker.php" hash="094a4a8f12137733519087f83b1fa8b0"/></dir><file name="Shippingtracker.php" hash="4af406cf68ac9d604612288d8d6b570b"/><file name="Status.php" hash="a599c1c9ab1b270ca4931347028ed733"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="ShippingtrackerController.php" hash="f85d33c1fac705f4283c4e1bdff67f3a"/></dir><file name="IndexController.php" hash="f394ffb993d9b938cf5d8599eaf350b1"/></dir><dir name="etc"><file name="config.xml" hash="68e1d5012b7a280bd7a8da07d34da255"/></dir><dir name="sql"><dir name="shippingtracker_setup"><file name="mysql4-install-0.1.0.php" hash="0198c2fa123cf4268abd676217d82350"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="shippingtracker.xml" hash="36aec37a435d1e9dbaa3fe52f58df130"/></dir><dir name="template"><dir name="sales"><dir name="order"><dir name="shipment"><dir name="create"><file name="tracking.phtml" hash="3c278d96e990a37bcd8ecc494defcd90"/></dir></dir></dir></dir></dir></dir></dir></dir><dir name="sales"><dir name="order"><dir name="shipment"><dir name="view"><file name="tracking.phtml" hash=""/></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="email"><dir name="order"><dir name="shipment"><file name="track.phtml" hash="bda60d09fdad7858d612ac6898af6af8"/></dir></dir></dir></dir></dir></dir></dir><dir name="default"><dir name="default"><dir name="template"><dir name="shipping"><dir name="tracking"><file name="popup.phtml" hash=""/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Neo_Shippingtracker.xml" hash="cd1b41c882c1a237752cfebb08bd634c"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

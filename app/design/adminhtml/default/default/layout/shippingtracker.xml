@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <shippingtracker_adminhtml_shippingtracker_index>
+        <reference name="content">
+            <block type="shippingtracker/adminhtml_shippingtracker" name="shippingtracker" />
+        </reference>
+    </shippingtracker_adminhtml_shippingtracker_index>
+</layout>
