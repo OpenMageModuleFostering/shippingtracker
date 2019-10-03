@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/ShippingTracker",
+    "name": "openmage-module-fostering\/shippingtracker",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)-",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "It allows the admin to add custom shipping carrier with tracking number .",
     "authors": [
